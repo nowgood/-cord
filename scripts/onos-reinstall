@@ -5,12 +5,15 @@ cd ~/onos-cord/
 docker-compose stop
 docker-compose rm -f
 docker-compose up -d
+
 echo "sleep 180s"
 sleep 180
 
 cd ~/service-profile/cord-pod/
 make vtn
+
 echo "sleep 180"
+sleep 180
 
 make fabric
 make cord
