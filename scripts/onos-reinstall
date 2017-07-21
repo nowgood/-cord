@@ -16,4 +16,3 @@ echo "sleep 180"
 sleep 180
 
 make fabric
-make cord
