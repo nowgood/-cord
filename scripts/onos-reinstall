@@ -10,8 +10,7 @@ sleep 180
 
 cd ~/service-profile/cord-pod/
 make vtn
-sleep 180
+echo "sleep 180"
 
 make fabric
-echo "sleep 60s"
-sleep 60
+make cord
